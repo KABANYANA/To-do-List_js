@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(128, 128, 228);
+}
+#btn{
+    padding: 20px;
+    text-align: center;
+    margin-left: 45%;
+    background-color: rgb(167, 142, 97);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#btn:hover{
+    cursor: pointer;
+}
