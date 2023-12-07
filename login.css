@@ -1,0 +1,45 @@
+.header{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(42, 119, 207);
+    font-family: Poppins;
+}
+form{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(42, 119, 207);
+    font-family: Poppins;
+}
+input{
+    margin-top: 2%;
+    padding: 12px;
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    border: none;
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(18, 95, 182);
+    color: white;
+    cursor: progress;
+    border: none;
+    width: 15%;
+}
+.sign{
+color: rgb(14, 112, 168);
+font-size: 18px;
+
+}
+h4{
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: progress;
+}
+body{
+    background: rgb(155, 219, 245);
+}

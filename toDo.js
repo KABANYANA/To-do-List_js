@@ -52,13 +52,7 @@ const input = document.querySelector('input');
 		const displayTodos = async()=>{
 		const todos = await getTodos();
 		console.log(todos)
-		
-
-		// "id": 1,
-		// "todo": "Do something nice for someone I care about",
-		// "completed": true,
-		// "userId": 26
-
+	
 
 
 		todos.todos.map(item=>{
@@ -70,7 +64,7 @@ const input = document.querySelector('input');
 		
 		
 			newLi.setAttribute('key',item.id)
-			//div.id='key'
+			
 			newLi.setAttribute('class','todo')
 			todoContainer.appendChild(newLi)
 		

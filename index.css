@@ -1,17 +1,32 @@
 .header{
     text-align: center;
-    margin-top: 20%;
-    color: rgb(128, 128, 228);
+    margin-top: 15%;
+    color: rgb(11, 19, 29);
+    font-family: Poppins;
+}
+body{
+    background: rgb(155, 219, 245);
 }
 #btn{
     padding: 20px;
     text-align: center;
     margin-left: 45%;
-    background-color: rgb(167, 142, 97);
+    background-color: rgb(11, 86, 199);
     color: white;
     border: none;
     border-radius: 20px;
+    font-family: Poppins;
+    font-size: 12px;
 }
 #btn:hover{
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    color: rgb(15, 78, 173);
+    text-decoration: none;
     cursor: pointer;
 }
